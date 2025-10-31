@@ -1,4 +1,6 @@
 import json
+import sys
+
 
 def txt_to_flashcards(input_path, output_path):
     flashcards = []
@@ -23,4 +25,5 @@ def txt_to_flashcards(input_path, output_path):
 # --- Ví dụ sử dụng ---
 # txt_to_flashcards("vocab.txt", "flashcards.json")
 
-txt_to_flashcards("input.txt", "sample.json")
+output_path = sys.argv[1] if len(sys.argv) > 1 else "sample.json"
+txt_to_flashcards("input.txt", output_path)
