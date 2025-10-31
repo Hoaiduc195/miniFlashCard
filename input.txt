@@ -1,101 +1,80 @@
-Hello || /həˈləʊ/ Xin chào
-Goodbye || /ɡʊdˈbaɪ/ Tạm biệt
-Please || /pliːz/ Làm ơn
-Thank you || /ˈθæŋk juː/ Cảm ơn
-Sorry || /ˈsɒri/ Xin lỗi
-Yes || /jɛs/ Vâng
-No || /nəʊ/ Không
-Man || /mæn/ Người đàn ông
-Woman || /ˈwʊmən/ Người phụ nữ
-Boy || /bɔɪ/ Cậu bé
-Girl || /ɡɜːl/ Cô bé
-Father || /ˈfɑːðər/ Cha
-Mother || /ˈmʌðər/ Mẹ
-Brother || /ˈbrʌðər/ Anh trai
-Sister || /ˈsɪstər/ Chị gái
-Friend || /frɛnd/ Bạn bè
-Teacher || /ˈtiːtʃər/ Giáo viên
-Student || /ˈstjuːdənt/ Học sinh
-School || /skuːl/ Trường học
-Book || /bʊk/ Quyển sách
-Pen || /pɛn/ Cây bút
-Notebook || /ˈnəʊtbʊk/ Quyển vở
-Bag || /bæɡ/ Cái túi
-Chair || /tʃeər/ Ghế
-Table || /ˈteɪbəl/ Bàn
-Window || /ˈwɪndəʊ/ Cửa sổ
-Door || /dɔːr/ Cánh cửa
-Car || /kɑːr/ Ô tô
-Bus || /bʌs/ Xe buýt
-Bicycle || /ˈbaɪsɪkl/ Xe đạp
-Dog || /dɒɡ/ Con chó
-Cat || /kæt/ Con mèo
-Bird || /bɜːd/ Con chim
-Fish || /fɪʃ/ Con cá
-Apple || /ˈæpəl/ Quả táo
-Banana || /bəˈnɑːnə/ Quả chuối
-Orange || /ˈɒrɪndʒ/ Quả cam
-Rice || /raɪs/ Cơm, gạo
-Water || /ˈwɔːtə/ Nước
-Milk || /mɪlk/ Sữa
-Bread || /brɛd/ Bánh mì
-Egg || /ɛɡ/ Trứng
-Meat || /miːt/ Thịt
-Vegetable || /ˈvɛdʒtəbl/ Rau củ
-Fruit || /fruːt/ Trái cây
-Sun || /sʌn/ Mặt trời
-Moon || /muːn/ Mặt trăng
-Star || /stɑːr/ Ngôi sao
-Sky || /skaɪ/ Bầu trời
-Cloud || /klaʊd/ Đám mây
-Rain || /reɪn/ Mưa
-Wind || /wɪnd/ Gió
-Snow || /snəʊ/ Tuyết
-Hot || /hɒt/ Nóng
-Cold || /kəʊld/ Lạnh
-Day || /deɪ/ Ngày
-Night || /naɪt/ Đêm
-Morning || /ˈmɔːnɪŋ/ Buổi sáng
-Evening || /ˈiːvnɪŋ/ Buổi tối
-Monday || /ˈmʌndeɪ/ Thứ hai
-Tuesday || /ˈtjuːzdeɪ/ Thứ ba
-Wednesday || /ˈwɛnzdeɪ/ Thứ tư
-Thursday || /ˈθɜːzdeɪ/ Thứ năm
-Friday || /ˈfraɪdeɪ/ Thứ sáu
-Saturday || /ˈsætədeɪ/ Thứ bảy
-Sunday || /ˈsʌndeɪ/ Chủ nhật
-Red || /rɛd/ Màu đỏ
-Blue || /bluː/ Màu xanh dương
-Green || /ɡriːn/ Màu xanh lá
-Yellow || /ˈjɛləʊ/ Màu vàng
-Black || /blæk/ Màu đen
-White || /waɪt/ Màu trắng
-Hat || /hæt/ Cái mũ
-Shirt || /ʃɜːt/ Áo sơ mi
-Dress || /drɛs/ Váy
-Shoe || /ʃuː/ Giày
-Coat || /kəʊt/ Áo khoác
-Walk || /wɔːk/ Đi bộ
-Run || /rʌn/ Chạy
-Jump || /dʒʌmp/ Nhảy
-Swim || /swɪm/ Bơi
-Eat || /iːt/ Ăn
-Drink || /drɪŋk/ Uống
-Sleep || /sliːp/ Ngủ
-Read || /riːd/ Đọc
-Write || /raɪt/ Viết
-Listen || /ˈlɪsn/ Nghe
-Speak || /spiːk/ Nói
-Play || /pleɪ/ Chơi
-Work || /wɜːk/ Làm việc
-Study || /ˈstʌdi/ Học
-Love || /lʌv/ Yêu
-Like || /laɪk/ Thích
-Happy || /ˈhæpi/ Vui vẻ
-Sad || /sæd/ Buồn
-Big || /bɪɡ/ To, lớn
-Small || /smɔːl/ Nhỏ
-Good || /ɡʊd/ Tốt
-Bad || /bæd/ Xấu
-New || /njuː/ Mới
-Old || /əʊld/ Cũ
+Abandon || /əˈbændən/ — từ bỏ
+Abate || /əˈbeɪt/ — giảm bớt, dịu đi
+Abdicate || /ˈæbdɪkeɪt/ — thoái vị, từ bỏ quyền lực
+Aberration || /ˌæbəˈreɪʃən/ — sự lệch lạc
+Abhor || /əbˈhɔːr/ — ghê tởm, ghét cay ghét đắng
+Abstruse || /æbˈstruːs/ — khó hiểu
+Accentuate || /əkˈsentʃueɪt/ — nhấn mạnh
+Acquiesce || /ˌækwiˈes/ — đồng ý một cách miễn cưỡng
+Acrimony || /ˈækrɪməni/ — sự gay gắt, thù hằn
+Admonish || /ədˈmɒnɪʃ/ — khuyên răn, khiển trách
+Affluent || /ˈæfluənt/ — giàu có
+Alacrity || /əˈlækrɪti/ — sự nhanh nhẹn, hăng hái
+Ambiguous || /æmˈbɪɡjuəs/ — mơ hồ
+Amiable || /ˈeɪmiəbl/ — dễ mến, hòa nhã
+Anomaly || /əˈnɒməli/ — sự bất thường
+Antithesis || /ænˈtɪθəsɪs/ — sự đối lập
+Apprehensive || /ˌæprɪˈhensɪv/ — lo sợ
+Arduous || /ˈɑːdjuəs/ — gian khổ, khó nhọc
+Articulate || /ɑːˈtɪkjuleɪt/ — nói rõ ràng
+Astute || /əˈstjuːt/ — sắc sảo, tinh khôn
+Belligerent || /bəˈlɪdʒərənt/ — hiếu chiến
+Benevolent || /bəˈnevələnt/ — nhân từ
+Boisterous || /ˈbɔɪstərəs/ — náo nhiệt, ồn ào
+Bolster || /ˈbəʊlstə/ — củng cố, ủng hộ
+Cacophony || /kəˈkɒfəni/ — âm thanh chói tai
+Cajole || /kəˈdʒəʊl/ — tán tỉnh, phỉnh phờ
+Capitulate || /kəˈpɪtjʊleɪt/ — đầu hàng
+Clandestine || /klænˈdestɪn/ — bí mật
+Coerce || /kəʊˈɜːs/ — ép buộc
+Complacent || /kəmˈpleɪsənt/ — tự mãn
+Concise || /kənˈsaɪs/ — ngắn gọn, súc tích
+Concur || /kənˈkɜː/ — đồng ý
+Conspicuous || /kənˈspɪkjʊəs/ — dễ thấy, nổi bật
+Contemplate || /ˈkɒntəmpleɪt/ — suy ngẫm
+Contrive || /kənˈtraɪv/ — xoay sở, nghĩ ra
+Copious || /ˈkəʊpiəs/ — dồi dào
+Credulous || /ˈkrɛdjʊləs/ — cả tin
+Cursory || /ˈkɜːsəri/ — qua loa
+Dearth || /dɜːθ/ — sự khan hiếm
+Debilitate || /dɪˈbɪlɪteɪt/ — làm yếu đi
+Deference || /ˈdefərəns/ — sự tôn trọng
+Defunct || /dɪˈfʌŋkt/ — không còn tồn tại
+Delineate || /dɪˈlɪnieɪt/ — mô tả chi tiết
+Deride || /dɪˈraɪd/ — chế nhạo
+Desolate || /ˈdesələt/ — hoang vắng
+Detrimental || /ˌdɛtrɪˈmɛntl/ — có hại
+Devoid || /dɪˈvɔɪd/ — không có, trống rỗng
+Didactic || /daɪˈdæktɪk/ — mang tính giáo huấn
+Diligent || /ˈdɪlɪdʒənt/ — siêng năng
+Discrepancy || /dɪsˈkrɛpənsi/ — sự khác biệt
+Disdain || /dɪsˈdeɪn/ — khinh thường
+Disparage || /dɪsˈpærɪdʒ/ — chê bai
+Disseminate || /dɪˈsɛmɪneɪt/ — truyền bá
+Dogmatic || /dɒɡˈmætɪk/ — bảo thủ
+Dubious || /ˈdjuːbiəs/ — nghi ngờ
+Ebullient || /ɪˈbʌljənt/ — sôi nổi
+Eccentric || /ɪkˈsɛntrɪk/ — lập dị
+Eclectic || /ɪˈklɛktɪk/ — đa dạng
+Eloquent || /ˈɛləkwənt/ — hùng hồn
+Elucidate || /ɪˈluːsɪdeɪt/ — làm sáng tỏ
+Emulate || /ˈɛmjʊleɪt/ — noi gương
+Enigmatic || /ˌɛnɪɡˈmætɪk/ — bí ẩn
+Ephemeral || /ɪˈfɛmərəl/ — phù du
+Equanimity || /ˌɛkwəˈnɪmɪti/ — sự bình thản
+Eradicate || /ɪˈrædɪkeɪt/ — xóa bỏ
+Erratic || /ɪˈrætɪk/ — thất thường
+Erudite || /ˈɛrjʊdaɪt/ — uyên bác
+Euphoria || /juːˈfɔːrɪə/ — sự hưng phấn
+Exacerbate || /ɪɡˈzæsəbeɪt/ — làm trầm trọng thêm
+Exemplary || /ɪɡˈzɛmˌpləri/ — gương mẫu
+Exorbitant || /ɪɡˈzɔːbɪtənt/ — quá mức
+Extol || /ɪkˈstəʊl/ — ca ngợi
+Facetious || /fəˈsiːʃəs/ — khôi hài, bông đùa
+Fallacious || /fəˈleɪʃəs/ — sai lầm
+Fastidious || /fæˈstɪdiəs/ — khó tính
+Feasible || /ˈfiːzəbl/ — khả thi
+Flabbergasted || /ˈflæbəɡɑːstɪd/ — kinh ngạc
+Frivolous || /ˈfrɪvələs/ — phù phiếm
+Garrulous || /ˈɡærələs/ — lắm lời
+Gratuitous || /ɡrəˈtjuːɪtəs/ — vô cớ

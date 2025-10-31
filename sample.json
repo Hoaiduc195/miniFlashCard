@@ -1,408 +1,324 @@
 {
   "flashcards": [
     {
-      "front": "Hello",
-      "back": "/həˈləʊ/ Xin chào"
+      "front": "Abandon",
+      "back": "/əˈbændən/ — từ bỏ"
     },
     {
-      "front": "Goodbye",
-      "back": "/ɡʊdˈbaɪ/ Tạm biệt"
+      "front": "Abate",
+      "back": "/əˈbeɪt/ — giảm bớt, dịu đi"
     },
     {
-      "front": "Please",
-      "back": "/pliːz/ Làm ơn"
+      "front": "Abdicate",
+      "back": "/ˈæbdɪkeɪt/ — thoái vị, từ bỏ quyền lực"
     },
     {
-      "front": "Thank you",
-      "back": "/ˈθæŋk juː/ Cảm ơn"
+      "front": "Aberration",
+      "back": "/ˌæbəˈreɪʃən/ — sự lệch lạc"
     },
     {
-      "front": "Sorry",
-      "back": "/ˈsɒri/ Xin lỗi"
+      "front": "Abhor",
+      "back": "/əbˈhɔːr/ — ghê tởm, ghét cay ghét đắng"
     },
     {
-      "front": "Yes",
-      "back": "/jɛs/ Vâng"
+      "front": "Abstruse",
+      "back": "/æbˈstruːs/ — khó hiểu"
     },
     {
-      "front": "No",
-      "back": "/nəʊ/ Không"
+      "front": "Accentuate",
+      "back": "/əkˈsentʃueɪt/ — nhấn mạnh"
     },
     {
-      "front": "Man",
-      "back": "/mæn/ Người đàn ông"
+      "front": "Acquiesce",
+      "back": "/ˌækwiˈes/ — đồng ý một cách miễn cưỡng"
     },
     {
-      "front": "Woman",
-      "back": "/ˈwʊmən/ Người phụ nữ"
+      "front": "Acrimony",
+      "back": "/ˈækrɪməni/ — sự gay gắt, thù hằn"
     },
     {
-      "front": "Boy",
-      "back": "/bɔɪ/ Cậu bé"
+      "front": "Admonish",
+      "back": "/ədˈmɒnɪʃ/ — khuyên răn, khiển trách"
     },
     {
-      "front": "Girl",
-      "back": "/ɡɜːl/ Cô bé"
+      "front": "Affluent",
+      "back": "/ˈæfluənt/ — giàu có"
     },
     {
-      "front": "Father",
-      "back": "/ˈfɑːðər/ Cha"
+      "front": "Alacrity",
+      "back": "/əˈlækrɪti/ — sự nhanh nhẹn, hăng hái"
     },
     {
-      "front": "Mother",
-      "back": "/ˈmʌðər/ Mẹ"
+      "front": "Ambiguous",
+      "back": "/æmˈbɪɡjuəs/ — mơ hồ"
     },
     {
-      "front": "Brother",
-      "back": "/ˈbrʌðər/ Anh trai"
+      "front": "Amiable",
+      "back": "/ˈeɪmiəbl/ — dễ mến, hòa nhã"
     },
     {
-      "front": "Sister",
-      "back": "/ˈsɪstər/ Chị gái"
+      "front": "Anomaly",
+      "back": "/əˈnɒməli/ — sự bất thường"
     },
     {
-      "front": "Friend",
-      "back": "/frɛnd/ Bạn bè"
+      "front": "Antithesis",
+      "back": "/ænˈtɪθəsɪs/ — sự đối lập"
     },
     {
-      "front": "Teacher",
-      "back": "/ˈtiːtʃər/ Giáo viên"
+      "front": "Apprehensive",
+      "back": "/ˌæprɪˈhensɪv/ — lo sợ"
     },
     {
-      "front": "Student",
-      "back": "/ˈstjuːdənt/ Học sinh"
+      "front": "Arduous",
+      "back": "/ˈɑːdjuəs/ — gian khổ, khó nhọc"
     },
     {
-      "front": "School",
-      "back": "/skuːl/ Trường học"
+      "front": "Articulate",
+      "back": "/ɑːˈtɪkjuleɪt/ — nói rõ ràng"
     },
     {
-      "front": "Book",
-      "back": "/bʊk/ Quyển sách"
+      "front": "Astute",
+      "back": "/əˈstjuːt/ — sắc sảo, tinh khôn"
     },
     {
-      "front": "Pen",
-      "back": "/pɛn/ Cây bút"
+      "front": "Belligerent",
+      "back": "/bəˈlɪdʒərənt/ — hiếu chiến"
     },
     {
-      "front": "Notebook",
-      "back": "/ˈnəʊtbʊk/ Quyển vở"
+      "front": "Benevolent",
+      "back": "/bəˈnevələnt/ — nhân từ"
     },
     {
-      "front": "Bag",
-      "back": "/bæɡ/ Cái túi"
+      "front": "Boisterous",
+      "back": "/ˈbɔɪstərəs/ — náo nhiệt, ồn ào"
     },
     {
-      "front": "Chair",
-      "back": "/tʃeər/ Ghế"
+      "front": "Bolster",
+      "back": "/ˈbəʊlstə/ — củng cố, ủng hộ"
     },
     {
-      "front": "Table",
-      "back": "/ˈteɪbəl/ Bàn"
+      "front": "Cacophony",
+      "back": "/kəˈkɒfəni/ — âm thanh chói tai"
     },
     {
-      "front": "Window",
-      "back": "/ˈwɪndəʊ/ Cửa sổ"
+      "front": "Cajole",
+      "back": "/kəˈdʒəʊl/ — tán tỉnh, phỉnh phờ"
     },
     {
-      "front": "Door",
-      "back": "/dɔːr/ Cánh cửa"
+      "front": "Capitulate",
+      "back": "/kəˈpɪtjʊleɪt/ — đầu hàng"
     },
     {
-      "front": "Car",
-      "back": "/kɑːr/ Ô tô"
+      "front": "Clandestine",
+      "back": "/klænˈdestɪn/ — bí mật"
     },
     {
-      "front": "Bus",
-      "back": "/bʌs/ Xe buýt"
+      "front": "Coerce",
+      "back": "/kəʊˈɜːs/ — ép buộc"
     },
     {
-      "front": "Bicycle",
-      "back": "/ˈbaɪsɪkl/ Xe đạp"
+      "front": "Complacent",
+      "back": "/kəmˈpleɪsənt/ — tự mãn"
     },
     {
-      "front": "Dog",
-      "back": "/dɒɡ/ Con chó"
+      "front": "Concise",
+      "back": "/kənˈsaɪs/ — ngắn gọn, súc tích"
     },
     {
-      "front": "Cat",
-      "back": "/kæt/ Con mèo"
+      "front": "Concur",
+      "back": "/kənˈkɜː/ — đồng ý"
     },
     {
-      "front": "Bird",
-      "back": "/bɜːd/ Con chim"
+      "front": "Conspicuous",
+      "back": "/kənˈspɪkjʊəs/ — dễ thấy, nổi bật"
     },
     {
-      "front": "Fish",
-      "back": "/fɪʃ/ Con cá"
+      "front": "Contemplate",
+      "back": "/ˈkɒntəmpleɪt/ — suy ngẫm"
     },
     {
-      "front": "Apple",
-      "back": "/ˈæpəl/ Quả táo"
+      "front": "Contrive",
+      "back": "/kənˈtraɪv/ — xoay sở, nghĩ ra"
     },
     {
-      "front": "Banana",
-      "back": "/bəˈnɑːnə/ Quả chuối"
+      "front": "Copious",
+      "back": "/ˈkəʊpiəs/ — dồi dào"
     },
     {
-      "front": "Orange",
-      "back": "/ˈɒrɪndʒ/ Quả cam"
+      "front": "Credulous",
+      "back": "/ˈkrɛdjʊləs/ — cả tin"
     },
     {
-      "front": "Rice",
-      "back": "/raɪs/ Cơm, gạo"
+      "front": "Cursory",
+      "back": "/ˈkɜːsəri/ — qua loa"
     },
     {
-      "front": "Water",
-      "back": "/ˈwɔːtə/ Nước"
+      "front": "Dearth",
+      "back": "/dɜːθ/ — sự khan hiếm"
     },
     {
-      "front": "Milk",
-      "back": "/mɪlk/ Sữa"
+      "front": "Debilitate",
+      "back": "/dɪˈbɪlɪteɪt/ — làm yếu đi"
     },
     {
-      "front": "Bread",
-      "back": "/brɛd/ Bánh mì"
+      "front": "Deference",
+      "back": "/ˈdefərəns/ — sự tôn trọng"
     },
     {
-      "front": "Egg",
-      "back": "/ɛɡ/ Trứng"
+      "front": "Defunct",
+      "back": "/dɪˈfʌŋkt/ — không còn tồn tại"
     },
     {
-      "front": "Meat",
-      "back": "/miːt/ Thịt"
+      "front": "Delineate",
+      "back": "/dɪˈlɪnieɪt/ — mô tả chi tiết"
     },
     {
-      "front": "Vegetable",
-      "back": "/ˈvɛdʒtəbl/ Rau củ"
+      "front": "Deride",
+      "back": "/dɪˈraɪd/ — chế nhạo"
     },
     {
-      "front": "Fruit",
-      "back": "/fruːt/ Trái cây"
+      "front": "Desolate",
+      "back": "/ˈdesələt/ — hoang vắng"
     },
     {
-      "front": "Sun",
-      "back": "/sʌn/ Mặt trời"
+      "front": "Detrimental",
+      "back": "/ˌdɛtrɪˈmɛntl/ — có hại"
     },
     {
-      "front": "Moon",
-      "back": "/muːn/ Mặt trăng"
+      "front": "Devoid",
+      "back": "/dɪˈvɔɪd/ — không có, trống rỗng"
     },
     {
-      "front": "Star",
-      "back": "/stɑːr/ Ngôi sao"
+      "front": "Didactic",
+      "back": "/daɪˈdæktɪk/ — mang tính giáo huấn"
     },
     {
-      "front": "Sky",
-      "back": "/skaɪ/ Bầu trời"
+      "front": "Diligent",
+      "back": "/ˈdɪlɪdʒənt/ — siêng năng"
     },
     {
-      "front": "Cloud",
-      "back": "/klaʊd/ Đám mây"
+      "front": "Discrepancy",
+      "back": "/dɪsˈkrɛpənsi/ — sự khác biệt"
     },
     {
-      "front": "Rain",
-      "back": "/reɪn/ Mưa"
+      "front": "Disdain",
+      "back": "/dɪsˈdeɪn/ — khinh thường"
     },
     {
-      "front": "Wind",
-      "back": "/wɪnd/ Gió"
+      "front": "Disparage",
+      "back": "/dɪsˈpærɪdʒ/ — chê bai"
     },
     {
-      "front": "Snow",
-      "back": "/snəʊ/ Tuyết"
+      "front": "Disseminate",
+      "back": "/dɪˈsɛmɪneɪt/ — truyền bá"
     },
     {
-      "front": "Hot",
-      "back": "/hɒt/ Nóng"
+      "front": "Dogmatic",
+      "back": "/dɒɡˈmætɪk/ — bảo thủ"
     },
     {
-      "front": "Cold",
-      "back": "/kəʊld/ Lạnh"
+      "front": "Dubious",
+      "back": "/ˈdjuːbiəs/ — nghi ngờ"
     },
     {
-      "front": "Day",
-      "back": "/deɪ/ Ngày"
+      "front": "Ebullient",
+      "back": "/ɪˈbʌljənt/ — sôi nổi"
     },
     {
-      "front": "Night",
-      "back": "/naɪt/ Đêm"
+      "front": "Eccentric",
+      "back": "/ɪkˈsɛntrɪk/ — lập dị"
     },
     {
-      "front": "Morning",
-      "back": "/ˈmɔːnɪŋ/ Buổi sáng"
+      "front": "Eclectic",
+      "back": "/ɪˈklɛktɪk/ — đa dạng"
     },
     {
-      "front": "Evening",
-      "back": "/ˈiːvnɪŋ/ Buổi tối"
+      "front": "Eloquent",
+      "back": "/ˈɛləkwənt/ — hùng hồn"
     },
     {
-      "front": "Monday",
-      "back": "/ˈmʌndeɪ/ Thứ hai"
+      "front": "Elucidate",
+      "back": "/ɪˈluːsɪdeɪt/ — làm sáng tỏ"
     },
     {
-      "front": "Tuesday",
-      "back": "/ˈtjuːzdeɪ/ Thứ ba"
+      "front": "Emulate",
+      "back": "/ˈɛmjʊleɪt/ — noi gương"
     },
     {
-      "front": "Wednesday",
-      "back": "/ˈwɛnzdeɪ/ Thứ tư"
+      "front": "Enigmatic",
+      "back": "/ˌɛnɪɡˈmætɪk/ — bí ẩn"
     },
     {
-      "front": "Thursday",
-      "back": "/ˈθɜːzdeɪ/ Thứ năm"
+      "front": "Ephemeral",
+      "back": "/ɪˈfɛmərəl/ — phù du"
     },
     {
-      "front": "Friday",
-      "back": "/ˈfraɪdeɪ/ Thứ sáu"
+      "front": "Equanimity",
+      "back": "/ˌɛkwəˈnɪmɪti/ — sự bình thản"
     },
     {
-      "front": "Saturday",
-      "back": "/ˈsætədeɪ/ Thứ bảy"
+      "front": "Eradicate",
+      "back": "/ɪˈrædɪkeɪt/ — xóa bỏ"
     },
     {
-      "front": "Sunday",
-      "back": "/ˈsʌndeɪ/ Chủ nhật"
+      "front": "Erratic",
+      "back": "/ɪˈrætɪk/ — thất thường"
     },
     {
-      "front": "Red",
-      "back": "/rɛd/ Màu đỏ"
+      "front": "Erudite",
+      "back": "/ˈɛrjʊdaɪt/ — uyên bác"
     },
     {
-      "front": "Blue",
-      "back": "/bluː/ Màu xanh dương"
+      "front": "Euphoria",
+      "back": "/juːˈfɔːrɪə/ — sự hưng phấn"
     },
     {
-      "front": "Green",
-      "back": "/ɡriːn/ Màu xanh lá"
+      "front": "Exacerbate",
+      "back": "/ɪɡˈzæsəbeɪt/ — làm trầm trọng thêm"
     },
     {
-      "front": "Yellow",
-      "back": "/ˈjɛləʊ/ Màu vàng"
+      "front": "Exemplary",
+      "back": "/ɪɡˈzɛmˌpləri/ — gương mẫu"
     },
     {
-      "front": "Black",
-      "back": "/blæk/ Màu đen"
+      "front": "Exorbitant",
+      "back": "/ɪɡˈzɔːbɪtənt/ — quá mức"
     },
     {
-      "front": "White",
-      "back": "/waɪt/ Màu trắng"
+      "front": "Extol",
+      "back": "/ɪkˈstəʊl/ — ca ngợi"
     },
     {
-      "front": "Hat",
-      "back": "/hæt/ Cái mũ"
+      "front": "Facetious",
+      "back": "/fəˈsiːʃəs/ — khôi hài, bông đùa"
     },
     {
-      "front": "Shirt",
-      "back": "/ʃɜːt/ Áo sơ mi"
+      "front": "Fallacious",
+      "back": "/fəˈleɪʃəs/ — sai lầm"
     },
     {
-      "front": "Dress",
-      "back": "/drɛs/ Váy"
+      "front": "Fastidious",
+      "back": "/fæˈstɪdiəs/ — khó tính"
     },
     {
-      "front": "Shoe",
-      "back": "/ʃuː/ Giày"
+      "front": "Feasible",
+      "back": "/ˈfiːzəbl/ — khả thi"
     },
     {
-      "front": "Coat",
-      "back": "/kəʊt/ Áo khoác"
+      "front": "Flabbergasted",
+      "back": "/ˈflæbəɡɑːstɪd/ — kinh ngạc"
     },
     {
-      "front": "Walk",
-      "back": "/wɔːk/ Đi bộ"
+      "front": "Frivolous",
+      "back": "/ˈfrɪvələs/ — phù phiếm"
     },
     {
-      "front": "Run",
-      "back": "/rʌn/ Chạy"
+      "front": "Garrulous",
+      "back": "/ˈɡærələs/ — lắm lời"
     },
     {
-      "front": "Jump",
-      "back": "/dʒʌmp/ Nhảy"
-    },
-    {
-      "front": "Swim",
-      "back": "/swɪm/ Bơi"
-    },
-    {
-      "front": "Eat",
-      "back": "/iːt/ Ăn"
-    },
-    {
-      "front": "Drink",
-      "back": "/drɪŋk/ Uống"
-    },
-    {
-      "front": "Sleep",
-      "back": "/sliːp/ Ngủ"
-    },
-    {
-      "front": "Read",
-      "back": "/riːd/ Đọc"
-    },
-    {
-      "front": "Write",
-      "back": "/raɪt/ Viết"
-    },
-    {
-      "front": "Listen",
-      "back": "/ˈlɪsn/ Nghe"
-    },
-    {
-      "front": "Speak",
-      "back": "/spiːk/ Nói"
-    },
-    {
-      "front": "Play",
-      "back": "/pleɪ/ Chơi"
-    },
-    {
-      "front": "Work",
-      "back": "/wɜːk/ Làm việc"
-    },
-    {
-      "front": "Study",
-      "back": "/ˈstʌdi/ Học"
-    },
-    {
-      "front": "Love",
-      "back": "/lʌv/ Yêu"
-    },
-    {
-      "front": "Like",
-      "back": "/laɪk/ Thích"
-    },
-    {
-      "front": "Happy",
-      "back": "/ˈhæpi/ Vui vẻ"
-    },
-    {
-      "front": "Sad",
-      "back": "/sæd/ Buồn"
-    },
-    {
-      "front": "Big",
-      "back": "/bɪɡ/ To, lớn"
-    },
-    {
-      "front": "Small",
-      "back": "/smɔːl/ Nhỏ"
-    },
-    {
-      "front": "Good",
-      "back": "/ɡʊd/ Tốt"
-    },
-    {
-      "front": "Bad",
-      "back": "/bæd/ Xấu"
-    },
-    {
-      "front": "New",
-      "back": "/njuː/ Mới"
-    },
-    {
-      "front": "Old",
-      "back": "/əʊld/ Cũ"
+      "front": "Gratuitous",
+      "back": "/ɡrəˈtjuːɪtəs/ — vô cớ"
     }
   ]
 }
