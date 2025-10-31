@@ -4,11 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flashcard Học Từ Vựng</title>
-    <!-- Tải Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        /* Thêm một chút CSS tùy chỉnh cho hiệu ứng lật thẻ */
-        
         /* Vùng chứa thẻ, giữ không gian cho thẻ */
         .card-container {
             perspective: 1000px;
@@ -61,32 +58,27 @@
     <div class="w-full max-w-md p-4">
         <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Học Từ Vựng</h1>
 
-        <!-- Vùng chứa thẻ flashcard -->
         <div class="card-container w-full h-64 mb-6" id="flashcard-container">
             <div class="card-flipper shadow-xl rounded-lg h-full" id="card-flipper">
-                <!-- Mặt trước (Từ vựng) -->
                 <div class="card-face card-front">
                     <p class="text-3xl font-semibold" id="card-front-text">Bắt đầu</p>
                 </div>
-                <!-- Mặt sau (Định nghĩa) -->
                 <div class="card-face card-back">
                     <p class="text-2xl" id="card-back-text">Nhấn để lật</p>
                 </div>
             </div>
         </div>
 
-        <!-- Nút điều khiển -->
         <div class="flex justify-between items-center mb-4">
             <button id="prev-btn" class="py-2 px-5 bg-gray-300 text-gray-700 rounded-lg shadow font-medium transition-transform transform hover:scale-105 active:scale-95">
                 Trước
             </button>
-            <p id="progress-text" class="text-gray-600 font-medium">1 / 10</p>
+            <p id="progress-text" class="text-gray-600 font-medium">0 / 0</p>
             <button id="next-btn" class="py-2 px-5 bg-blue-600 text-white rounded-lg shadow font-medium transition-transform transform hover:scale-105 active:scale-95">
                 Sau
             </button>
         </div>
 
-        <!-- Hướng dẫn -->
         <p class="text-center text-gray-500 text-sm">Nhấn vào thẻ để xem định nghĩa.</p>
     </div>
 
@@ -106,14 +98,15 @@
             const nextBtn = document.getElementById('next-btn');
             const progressText = document.getElementById('progress-text');
 
-            // --- Hàm hiển thị thẻ ---
+            // --- Hàm hiển thị thẻ (ĐÃ CẬP NHẬT) ---
             function showCard() {
                 // Lấy thẻ hiện tại
                 const card = flashcards[currentCardIndex];
                 
                 // Cập nhật nội dung
-                cardFrontText.textContent = card.word;
-                cardBackText.textContent = card.definition;
+                // Sử dụng "front" và "back" để khớp với file sample.json
+                cardFrontText.textContent = card.front;
+                cardBackText.textContent = card.back;
                 
                 // Cập nhật tiến độ
                 progressText.textContent = `${currentCardIndex + 1} / ${flashcards.length}`;
@@ -149,48 +142,26 @@
                 showCard();
             }
             
-            // --- Hàm tải dữ liệu từ vựng từ file vocabulary.txt ---
+            // --- Hàm tải dữ liệu từ vựng (ĐÃ CẬP NHẬT) ---
             async function loadVocabulary() {
-                try {
-                    // Tải file TXT (đặt file này cùng thư mục với index.html)
-                    const response = await fetch('./sample.txt'); 
+                 try {
+                    // Tải file JSON (sử dụng 'sample.json')
+                    const response = await fetch('./sample.json'); 
                     
                     if (!response.ok) {
-                        throw new Error(`Không thể tải file vocabulary.txt (Lỗi: ${response.status})`);
+                        throw new Error(`Không thể tải file sample.json (Lỗi: ${response.status})`);
                     }
                     
-                    const textData = await response.text();
-                    const lines = textData.split('\n'); // Tách file text thành từng dòng
-                    const parsedFlashcards = [];
-
-                    for (let i = 0; i < lines.length; i++) {
-                        const line = lines[i].trim();
-                        if (line === '') continue; // Bỏ qua các dòng trống
-
-                        // Tìm vị trí của dấu cách (hoặc tab) đầu tiên
-                        const separatorIndex = line.search(/\s/); 
-                        
-                        if (separatorIndex === -1 || separatorIndex === 0) {
-                            console.warn(`Bỏ qua dòng không hợp lệ: "${line}"`);
-                            continue; // Bỏ qua nếu không tìm thấy dấu cách hoặc dòng bắt đầu bằng dấu cách
-                        }
-
-                        // Tách từ (mặt trước) và định nghĩa (mặt sau)
-                        const word = line.substring(0, separatorIndex).trim();
-                        const definition = line.substring(separatorIndex + 1).trim();
-
-                        // Chỉ thêm vào nếu cả hai phần đều có nội dung
-                        if (word && definition) {
-                            parsedFlashcards.push({ word, definition });
-                        }
-                    }
+                    // Phân tích dữ liệu JSON
+                    const jsonData = await response.json();
                     
-                    flashcards = parsedFlashcards; // Gán dữ liệu đã phân tích
-                    
+                    // Lấy mảng flashcards từ bên trong đối tượng JSON
+                    flashcards = jsonData.flashcards; 
+
                     // Kiểm tra nếu không có từ vựng
-                    if (flashcards.length === 0) {
+                    if (!flashcards || flashcards.length === 0) {
                         cardFrontText.textContent = "Không có từ vựng";
-                        cardBackText.textContent = "Vui lòng thêm từ vào file vocabulary.txt";
+                        cardBackText.textContent = "Vui lòng thêm từ vào file sample.json";
                         progressText.textContent = "0 / 0";
                         return;
                     }
@@ -207,7 +178,7 @@
                     console.error("Lỗi khi tải từ vựng:", error);
                     // Hiển thị lỗi cho người dùng
                     cardFrontText.textContent = "Lỗi";
-                    cardBackText.textContent = "Không thể tải dữ liệu. Hãy đảm bảo file 'vocabulary.txt' tồn tại.";
+                    cardBackText.textContent = "Không thể tải dữ liệu. Hãy đảm bảo file 'sample.json' tồn tại.";
                     progressText.textContent = "Error";
                 }
             }
@@ -219,4 +190,3 @@
 
 </body>
 </html>
-
