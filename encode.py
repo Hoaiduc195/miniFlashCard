@@ -23,4 +23,4 @@ def txt_to_flashcards(input_path, output_path):
 # --- Ví dụ sử dụng ---
 # txt_to_flashcards("vocab.txt", "flashcards.json")
 
-txt_to_flashcards("input.txt", "unit1.json")
+txt_to_flashcards("input.txt", "sample.json")

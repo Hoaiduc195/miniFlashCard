@@ -1,20 +1,408 @@
 {
   "flashcards": [
     {
-      "front": "Xin chào",
-      "back": "Hello"
+      "front": "Hello",
+      "back": "/həˈləʊ/ Xin chào"
     },
     {
-      "front": "Con mèo",
-      "back": "Cat"
+      "front": "Goodbye",
+      "back": "/ɡʊdˈbaɪ/ Tạm biệt"
     },
     {
-      "front": "Học tập",
-      "back": "Study"
+      "front": "Please",
+      "back": "/pliːz/ Làm ơn"
     },
     {
-      "front": "Màu đỏ",
-      "back": "Red"
+      "front": "Thank you",
+      "back": "/ˈθæŋk juː/ Cảm ơn"
+    },
+    {
+      "front": "Sorry",
+      "back": "/ˈsɒri/ Xin lỗi"
+    },
+    {
+      "front": "Yes",
+      "back": "/jɛs/ Vâng"
+    },
+    {
+      "front": "No",
+      "back": "/nəʊ/ Không"
+    },
+    {
+      "front": "Man",
+      "back": "/mæn/ Người đàn ông"
+    },
+    {
+      "front": "Woman",
+      "back": "/ˈwʊmən/ Người phụ nữ"
+    },
+    {
+      "front": "Boy",
+      "back": "/bɔɪ/ Cậu bé"
+    },
+    {
+      "front": "Girl",
+      "back": "/ɡɜːl/ Cô bé"
+    },
+    {
+      "front": "Father",
+      "back": "/ˈfɑːðər/ Cha"
+    },
+    {
+      "front": "Mother",
+      "back": "/ˈmʌðər/ Mẹ"
+    },
+    {
+      "front": "Brother",
+      "back": "/ˈbrʌðər/ Anh trai"
+    },
+    {
+      "front": "Sister",
+      "back": "/ˈsɪstər/ Chị gái"
+    },
+    {
+      "front": "Friend",
+      "back": "/frɛnd/ Bạn bè"
+    },
+    {
+      "front": "Teacher",
+      "back": "/ˈtiːtʃər/ Giáo viên"
+    },
+    {
+      "front": "Student",
+      "back": "/ˈstjuːdənt/ Học sinh"
+    },
+    {
+      "front": "School",
+      "back": "/skuːl/ Trường học"
+    },
+    {
+      "front": "Book",
+      "back": "/bʊk/ Quyển sách"
+    },
+    {
+      "front": "Pen",
+      "back": "/pɛn/ Cây bút"
+    },
+    {
+      "front": "Notebook",
+      "back": "/ˈnəʊtbʊk/ Quyển vở"
+    },
+    {
+      "front": "Bag",
+      "back": "/bæɡ/ Cái túi"
+    },
+    {
+      "front": "Chair",
+      "back": "/tʃeər/ Ghế"
+    },
+    {
+      "front": "Table",
+      "back": "/ˈteɪbəl/ Bàn"
+    },
+    {
+      "front": "Window",
+      "back": "/ˈwɪndəʊ/ Cửa sổ"
+    },
+    {
+      "front": "Door",
+      "back": "/dɔːr/ Cánh cửa"
+    },
+    {
+      "front": "Car",
+      "back": "/kɑːr/ Ô tô"
+    },
+    {
+      "front": "Bus",
+      "back": "/bʌs/ Xe buýt"
+    },
+    {
+      "front": "Bicycle",
+      "back": "/ˈbaɪsɪkl/ Xe đạp"
+    },
+    {
+      "front": "Dog",
+      "back": "/dɒɡ/ Con chó"
+    },
+    {
+      "front": "Cat",
+      "back": "/kæt/ Con mèo"
+    },
+    {
+      "front": "Bird",
+      "back": "/bɜːd/ Con chim"
+    },
+    {
+      "front": "Fish",
+      "back": "/fɪʃ/ Con cá"
+    },
+    {
+      "front": "Apple",
+      "back": "/ˈæpəl/ Quả táo"
+    },
+    {
+      "front": "Banana",
+      "back": "/bəˈnɑːnə/ Quả chuối"
+    },
+    {
+      "front": "Orange",
+      "back": "/ˈɒrɪndʒ/ Quả cam"
+    },
+    {
+      "front": "Rice",
+      "back": "/raɪs/ Cơm, gạo"
+    },
+    {
+      "front": "Water",
+      "back": "/ˈwɔːtə/ Nước"
+    },
+    {
+      "front": "Milk",
+      "back": "/mɪlk/ Sữa"
+    },
+    {
+      "front": "Bread",
+      "back": "/brɛd/ Bánh mì"
+    },
+    {
+      "front": "Egg",
+      "back": "/ɛɡ/ Trứng"
+    },
+    {
+      "front": "Meat",
+      "back": "/miːt/ Thịt"
+    },
+    {
+      "front": "Vegetable",
+      "back": "/ˈvɛdʒtəbl/ Rau củ"
+    },
+    {
+      "front": "Fruit",
+      "back": "/fruːt/ Trái cây"
+    },
+    {
+      "front": "Sun",
+      "back": "/sʌn/ Mặt trời"
+    },
+    {
+      "front": "Moon",
+      "back": "/muːn/ Mặt trăng"
+    },
+    {
+      "front": "Star",
+      "back": "/stɑːr/ Ngôi sao"
+    },
+    {
+      "front": "Sky",
+      "back": "/skaɪ/ Bầu trời"
+    },
+    {
+      "front": "Cloud",
+      "back": "/klaʊd/ Đám mây"
+    },
+    {
+      "front": "Rain",
+      "back": "/reɪn/ Mưa"
+    },
+    {
+      "front": "Wind",
+      "back": "/wɪnd/ Gió"
+    },
+    {
+      "front": "Snow",
+      "back": "/snəʊ/ Tuyết"
+    },
+    {
+      "front": "Hot",
+      "back": "/hɒt/ Nóng"
+    },
+    {
+      "front": "Cold",
+      "back": "/kəʊld/ Lạnh"
+    },
+    {
+      "front": "Day",
+      "back": "/deɪ/ Ngày"
+    },
+    {
+      "front": "Night",
+      "back": "/naɪt/ Đêm"
+    },
+    {
+      "front": "Morning",
+      "back": "/ˈmɔːnɪŋ/ Buổi sáng"
+    },
+    {
+      "front": "Evening",
+      "back": "/ˈiːvnɪŋ/ Buổi tối"
+    },
+    {
+      "front": "Monday",
+      "back": "/ˈmʌndeɪ/ Thứ hai"
+    },
+    {
+      "front": "Tuesday",
+      "back": "/ˈtjuːzdeɪ/ Thứ ba"
+    },
+    {
+      "front": "Wednesday",
+      "back": "/ˈwɛnzdeɪ/ Thứ tư"
+    },
+    {
+      "front": "Thursday",
+      "back": "/ˈθɜːzdeɪ/ Thứ năm"
+    },
+    {
+      "front": "Friday",
+      "back": "/ˈfraɪdeɪ/ Thứ sáu"
+    },
+    {
+      "front": "Saturday",
+      "back": "/ˈsætədeɪ/ Thứ bảy"
+    },
+    {
+      "front": "Sunday",
+      "back": "/ˈsʌndeɪ/ Chủ nhật"
+    },
+    {
+      "front": "Red",
+      "back": "/rɛd/ Màu đỏ"
+    },
+    {
+      "front": "Blue",
+      "back": "/bluː/ Màu xanh dương"
+    },
+    {
+      "front": "Green",
+      "back": "/ɡriːn/ Màu xanh lá"
+    },
+    {
+      "front": "Yellow",
+      "back": "/ˈjɛləʊ/ Màu vàng"
+    },
+    {
+      "front": "Black",
+      "back": "/blæk/ Màu đen"
+    },
+    {
+      "front": "White",
+      "back": "/waɪt/ Màu trắng"
+    },
+    {
+      "front": "Hat",
+      "back": "/hæt/ Cái mũ"
+    },
+    {
+      "front": "Shirt",
+      "back": "/ʃɜːt/ Áo sơ mi"
+    },
+    {
+      "front": "Dress",
+      "back": "/drɛs/ Váy"
+    },
+    {
+      "front": "Shoe",
+      "back": "/ʃuː/ Giày"
+    },
+    {
+      "front": "Coat",
+      "back": "/kəʊt/ Áo khoác"
+    },
+    {
+      "front": "Walk",
+      "back": "/wɔːk/ Đi bộ"
+    },
+    {
+      "front": "Run",
+      "back": "/rʌn/ Chạy"
+    },
+    {
+      "front": "Jump",
+      "back": "/dʒʌmp/ Nhảy"
+    },
+    {
+      "front": "Swim",
+      "back": "/swɪm/ Bơi"
+    },
+    {
+      "front": "Eat",
+      "back": "/iːt/ Ăn"
+    },
+    {
+      "front": "Drink",
+      "back": "/drɪŋk/ Uống"
+    },
+    {
+      "front": "Sleep",
+      "back": "/sliːp/ Ngủ"
+    },
+    {
+      "front": "Read",
+      "back": "/riːd/ Đọc"
+    },
+    {
+      "front": "Write",
+      "back": "/raɪt/ Viết"
+    },
+    {
+      "front": "Listen",
+      "back": "/ˈlɪsn/ Nghe"
+    },
+    {
+      "front": "Speak",
+      "back": "/spiːk/ Nói"
+    },
+    {
+      "front": "Play",
+      "back": "/pleɪ/ Chơi"
+    },
+    {
+      "front": "Work",
+      "back": "/wɜːk/ Làm việc"
+    },
+    {
+      "front": "Study",
+      "back": "/ˈstʌdi/ Học"
+    },
+    {
+      "front": "Love",
+      "back": "/lʌv/ Yêu"
+    },
+    {
+      "front": "Like",
+      "back": "/laɪk/ Thích"
+    },
+    {
+      "front": "Happy",
+      "back": "/ˈhæpi/ Vui vẻ"
+    },
+    {
+      "front": "Sad",
+      "back": "/sæd/ Buồn"
+    },
+    {
+      "front": "Big",
+      "back": "/bɪɡ/ To, lớn"
+    },
+    {
+      "front": "Small",
+      "back": "/smɔːl/ Nhỏ"
+    },
+    {
+      "front": "Good",
+      "back": "/ɡʊd/ Tốt"
+    },
+    {
+      "front": "Bad",
+      "back": "/bæd/ Xấu"
+    },
+    {
+      "front": "New",
+      "back": "/njuː/ Mới"
+    },
+    {
+      "front": "Old",
+      "back": "/əʊld/ Cũ"
     }
   ]
 }
