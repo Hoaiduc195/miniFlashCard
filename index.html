@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flashcard Học Từ Vựng</title>
+    <!-- Tải Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Thêm một chút CSS tùy chỉnh cho hiệu ứng lật thẻ */
+        
+        /* Vùng chứa thẻ, giữ không gian cho thẻ */
+        .card-container {
+            perspective: 1000px;
+        }
+
+        /* Thẻ bên trong, đây là phần sẽ lật */
+        .card-flipper {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            transition: transform 0.6s;
+            transform-style: preserve-3d;
+        }
+
+        /* Thêm lớp .is-flipped vào .card-flipper để lật */
+        .card-flipper.is-flipped {
+            transform: rotateY(180deg);
+        }
+
+        /* Mặt trước và mặt sau của thẻ */
+        .card-face {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            backface-visibility: hidden; /* Ẩn mặt sau khi nhìn từ đằng trước */
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 2rem;
+            border-radius: 0.5rem; /* bo góc */
+        }
+
+        /* Mặt trước */
+        .card-front {
+            background-color: white;
+            color: #1f2937; /* text-gray-800 */
+        }
+
+        /* Mặt sau, xoay 180 độ ban đầu */
+        .card-back {
+            background-color: #3b82f6; /* bg-blue-500 */
+            color: white;
+            transform: rotateY(180deg);
+        }
+    </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body class="bg-gray-100 flex items-center justify-center min-h-screen font-['Inter',_sans-serif]">
+
+    <div class="w-full max-w-md p-4">
+        <h1 class="text-3xl font-bold text-center text-gray-800 mb-6">Học Từ Vựng</h1>
+
+        <!-- Vùng chứa thẻ flashcard -->
+        <div class="card-container w-full h-64 mb-6" id="flashcard-container">
+            <div class="card-flipper shadow-xl rounded-lg h-full" id="card-flipper">
+                <!-- Mặt trước (Từ vựng) -->
+                <div class="card-face card-front">
+                    <p class="text-3xl font-semibold" id="card-front-text">Bắt đầu</p>
+                </div>
+                <!-- Mặt sau (Định nghĩa) -->
+                <div class="card-face card-back">
+                    <p class="text-2xl" id="card-back-text">Nhấn để lật</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nút điều khiển -->
+        <div class="flex justify-between items-center mb-4">
+            <button id="prev-btn" class="py-2 px-5 bg-gray-300 text-gray-700 rounded-lg shadow font-medium transition-transform transform hover:scale-105 active:scale-95">
+                Trước
+            </button>
+            <p id="progress-text" class="text-gray-600 font-medium">1 / 10</p>
+            <button id="next-btn" class="py-2 px-5 bg-blue-600 text-white rounded-lg shadow font-medium transition-transform transform hover:scale-105 active:scale-95">
+                Sau
+            </button>
+        </div>
+
+        <!-- Hướng dẫn -->
+        <p class="text-center text-gray-500 text-sm">Nhấn vào thẻ để xem định nghĩa.</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // --- Dữ liệu Flashcard sẽ được tải từ file JSON ---
+            let flashcards = [];
+            let currentCardIndex = 0;
+            let isFlipped = false;
+
+            // --- Lấy các phần tử DOM ---
+            const cardFlipper = document.getElementById('card-flipper');
+            const cardContainer = document.getElementById('flashcard-container');
+            const cardFrontText = document.getElementById('card-front-text');
+            const cardBackText = document.getElementById('card-back-text');
+            const prevBtn = document.getElementById('prev-btn');
+            const nextBtn = document.getElementById('next-btn');
+            const progressText = document.getElementById('progress-text');
+
+            // --- Hàm hiển thị thẻ ---
+            function showCard() {
+                // Lấy thẻ hiện tại
+                const card = flashcards[currentCardIndex];
+                
+                // Cập nhật nội dung
+                cardFrontText.textContent = card.word;
+                cardBackText.textContent = card.definition;
+                
+                // Cập nhật tiến độ
+                progressText.textContent = `${currentCardIndex + 1} / ${flashcards.length}`;
+                
+                // Đảm bảo thẻ luôn hiển thị mặt trước khi chuyển
+                if (isFlipped) {
+                    cardFlipper.classList.remove('is-flipped');
+                    isFlipped = false;
+                }
+            }
+
+            // --- Hàm lật thẻ ---
+            function flipCard() {
+                cardFlipper.classList.toggle('is-flipped');
+                isFlipped = !isFlipped;
+            }
+
+            // --- Hàm chuyển thẻ tiếp theo ---
+            function nextCard() {
+                currentCardIndex++;
+                if (currentCardIndex >= flashcards.length) {
+                    currentCardIndex = 0; // Quay lại thẻ đầu tiên
+                }
+                showCard();
+            }
+
+            // --- Hàm quay lại thẻ trước ---
+            function prevCard() {
+                currentCardIndex--;
+                if (currentCardIndex < 0) {
+                    currentCardIndex = flashcards.length - 1; // Đi đến thẻ cuối cùng
+                }
+                showCard();
+            }
+            
+            // --- Hàm tải dữ liệu từ vựng từ file vocabulary.txt ---
+            async function loadVocabulary() {
+                try {
+                    // Tải file TXT (đặt file này cùng thư mục với index.html)
+                    const response = await fetch('./sample.txt'); 
+                    
+                    if (!response.ok) {
+                        throw new Error(`Không thể tải file vocabulary.txt (Lỗi: ${response.status})`);
+                    }
+                    
+                    const textData = await response.text();
+                    const lines = textData.split('\n'); // Tách file text thành từng dòng
+                    const parsedFlashcards = [];
+
+                    for (let i = 0; i < lines.length; i++) {
+                        const line = lines[i].trim();
+                        if (line === '') continue; // Bỏ qua các dòng trống
+
+                        // Tìm vị trí của dấu cách (hoặc tab) đầu tiên
+                        const separatorIndex = line.search(/\s/); 
+                        
+                        if (separatorIndex === -1 || separatorIndex === 0) {
+                            console.warn(`Bỏ qua dòng không hợp lệ: "${line}"`);
+                            continue; // Bỏ qua nếu không tìm thấy dấu cách hoặc dòng bắt đầu bằng dấu cách
+                        }
+
+                        // Tách từ (mặt trước) và định nghĩa (mặt sau)
+                        const word = line.substring(0, separatorIndex).trim();
+                        const definition = line.substring(separatorIndex + 1).trim();
+
+                        // Chỉ thêm vào nếu cả hai phần đều có nội dung
+                        if (word && definition) {
+                            parsedFlashcards.push({ word, definition });
+                        }
+                    }
+                    
+                    flashcards = parsedFlashcards; // Gán dữ liệu đã phân tích
+                    
+                    // Kiểm tra nếu không có từ vựng
+                    if (flashcards.length === 0) {
+                        cardFrontText.textContent = "Không có từ vựng";
+                        cardBackText.textContent = "Vui lòng thêm từ vào file vocabulary.txt";
+                        progressText.textContent = "0 / 0";
+                        return;
+                    }
+
+                    // --- Gán sự kiện cho các nút (CHỈ SAU KHI đã tải xong dữ liệu) ---
+                    cardContainer.addEventListener('click', flipCard);
+                    nextBtn.addEventListener('click', nextCard);
+                    prevBtn.addEventListener('click', prevCard);
+
+                    // --- Hiển thị thẻ đầu tiên ---
+                    showCard();
+
+                } catch (error) {
+                    console.error("Lỗi khi tải từ vựng:", error);
+                    // Hiển thị lỗi cho người dùng
+                    cardFrontText.textContent = "Lỗi";
+                    cardBackText.textContent = "Không thể tải dữ liệu. Hãy đảm bảo file 'vocabulary.txt' tồn tại.";
+                    progressText.textContent = "Error";
+                }
+            }
+
+            // --- Bắt đầu tải dữ liệu khi trang được tải ---
+            loadVocabulary();
+        });
+    </script>
+
+</body>
+</html>
+
