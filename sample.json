@@ -1,22 +1,20 @@
-[
-  {
-    "word": "Hello",
-    "definition": "/həˈləʊ/ Xin chào"
-  },
-  {
-    "word": "Cat",
-    "definition": "/kæt/ Con mèo"
-  },
-  {
-    "word": "Computer",
-    "definition": "/kəmˈpjuːtə/ Máy tính"
-  },
-  {
-    "word": "Persevere",
-    "definition": "/ˌpɜːsɪˈvɪə/ Kiên trì, bền bỉ"
-  },
-  {
-    "word": "Ephemeral",
-    "definition": "/ɪˈfemərəl/ Phù du, chóng tàn"
-  }
-]
+{
+  "flashcards": [
+    {
+      "front": "Xin chào",
+      "back": "Hello"
+    },
+    {
+      "front": "Con mèo",
+      "back": "Cat"
+    },
+    {
+      "front": "Học tập",
+      "back": "Study"
+    },
+    {
+      "front": "Màu đỏ",
+      "back": "Red"
+    }
+  ]
+}
